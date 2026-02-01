@@ -1,0 +1,65 @@
+{
+    "product_name": "Нить армированная",
+    "marketplaces": {
+        "Wildberries": {
+            "revenue": 22576.439999999995,
+            "sales_count": 100,
+            "profit": -5132.713005244741,
+            "forecast": {
+                "revenue": 19860.985894144735,
+                "sales_count": 84,
+                "method": "sarima"
+            },
+            "charts": {
+                "revenue_trend": "json_source/inal_5/2025-01/graphs/revenue_trend_wildberries.png",
+                "sales_trend": "json_source/inal_5/2025-01/graphs/sales_trend_wildberries.png",
+                "forecast": "json_source/inal_5/2025-01/graphs/forecast_wildberries.png"
+            }
+        },
+        "Ozon": {
+            "revenue": 44744.53000000004,
+            "sales_count": 194,
+            "profit": -3303.530193070134,
+            "forecast": {
+                "revenue": 41857.087569771764,
+                "sales_count": 206,
+                "method": "sarima"
+            },
+            "charts": {
+                "revenue_trend": "json_source/inal_5/2025-01/graphs/revenue_trend_ozon.png",
+                "sales_trend": "json_source/inal_5/2025-01/graphs/sales_trend_ozon.png",
+                "forecast": "json_source/inal_5/2025-01/graphs/forecast_ozon.png"
+            }
+        },
+        "Яндекс.Маркет": {
+            "revenue": 23801.249999999996,
+            "sales_count": 100,
+            "profit": 1950.1425720581142,
+            "forecast": {
+                "revenue": 38099.104917006414,
+                "sales_count": 144,
+                "method": "holt"
+            },
+            "charts": {
+                "revenue_trend": "json_source/inal_5/2025-01/graphs/revenue_trend_яндекс.маркет.png",
+                "sales_trend": "json_source/inal_5/2025-01/graphs/sales_trend_яндекс.маркет.png",
+                "forecast": "json_source/inal_5/2025-01/graphs/forecast_яндекс.маркет.png"
+            }
+        }
+    },
+    "general_stats": {
+        "best_marketplace_by_revenue": {
+            "name": "Ozon",
+            "forecast_revenue": 41857.087569771764
+        },
+        "best_marketplace_by_sales_count": {
+            "name": "Ozon",
+            "forecast_sales": 206
+        },
+        "charts": {
+            "revenue_distribution": "json_source/inal_5/2025-01/graphs/revenue_distribution.png",
+            "sales_count_distribution": "json_source/inal_5/2025-01/graphs/sales_count_distribution.png",
+            "net_profit_distribution": "json_source/inal_5/2025-01/graphs/net_profit_distribution.png"
+        }
+    }
+}

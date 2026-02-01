@@ -1,0 +1,13 @@
+{
+    "name": "ypertip/mustaev_invoice_2",
+    "autoload": {
+        "psr-4": {
+            "Ypertip\\MustaevInvoice2\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.1",
+        "tecnickcom/tcpdf": "^6.8",
+        "mpdf/mpdf": "^8.2"
+    }
+}
